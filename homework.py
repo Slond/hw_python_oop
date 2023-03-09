@@ -16,7 +16,7 @@ class InfoMessage:
                         + f'Длительность:{self.duration: .3f} ч.; '
                         + f'Дистанция:{self.distance: .3f} км; '
                         + f'Ср. скорость:{self.speed: .3f} км/ч; '
-                        + f'Потрачено ккал:{self.calories: .3f} ккал.')
+                        + f'Потрачено ккал:{self.calories: .3f}.')
         return message
 
 
